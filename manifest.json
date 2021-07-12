@@ -1,0 +1,18 @@
+{
+    "name": "Bad Extention",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.keybr.com/"
+            ],
+            "js": [
+                "keybr.js"
+            ],
+            "css": [
+                "keybr.css"
+            ]
+        }
+    ]
+}
